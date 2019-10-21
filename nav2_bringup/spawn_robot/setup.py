@@ -1,6 +1,6 @@
 from setuptools import setup
 
-PACKAGE_NAME = 'spawn_turtlebot3'
+PACKAGE_NAME = 'spawn_robot'
 
 setup(
     name=PACKAGE_NAME,
@@ -17,7 +17,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'spawn_turtlebot = spawn_turtlebot3.spawn_turtlebot:main',
+            'spawn_robot = spawn_robot.spawn_robot:main',
         ],
     },
 )
